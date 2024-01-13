@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compétences</title>
+    <title>Quiz</title>
     <link rel="stylesheet" href="../style/index.css">
 </head>
 
@@ -117,11 +117,15 @@
                     </div>
                 </div>
                 <div id="resultat">
-                    <button class="btnquiz">Calculer mon score</button>
+                    <button class="btnquiz" onclick="calculerScore()">Calculer mon score</button>
+                </div>
+                <div id="score">
+                    <h2>Votre score est de <span id="scorenum">0</span>/5</h2>
                 </div>
             </section>
         </main>
     </section>
+    <script src="quiz.js"></script>
 </body>
 
 </html>

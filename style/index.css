@@ -330,3 +330,73 @@ main {
 	font-weight: 600;
 	cursor: pointer;
 }
+
+#clubs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	padding: 16px;
+	line-height: 24px;
+}
+
+.club {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	border: 1px solid #e1e4e8;
+	border-radius: 6px;
+	width: 650px;
+	line-height: 24px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.club h2 {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	line-height: 28px;
+}
+
+.club p {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(75 85 99);
+	line-height: 24px;
+	margin: 16px 0;
+}
+
+#projets {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	padding: 16px;
+	line-height: 24px;
+}
+
+.projet {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	border: 1px solid #e1e4e8;
+	border-radius: 6px;
+	width: 650px;
+	line-height: 24px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.projet h2 {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	line-height: 28px;
+}
+
+.projet p {
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(75 85 99);
+	line-height: 24px;
+	margin: 8px 0;
+}
