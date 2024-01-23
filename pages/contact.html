@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+
+<body>
+    <section class="conteneur">
+        <header>
+            <h1>Youssef Mrabet</h1>
+            <nav>
+                <a href="education.html">Education</a>
+                <a href="competences.html">Compétences</a>
+                <a href="experience.html">Experience</a>
+                <a href="clubs.html">Clubs</a>
+                <a href="projets.html">Projets</a>
+                <a href="passion.html">Passion</a>
+                <a href="quiz.html">Quiz</a>
+                <a class="actif" href="contact.html">Contact</a>
+                <a href="temoignage.html">Témoignage</a>
+            </nav>
+        </header>
+        <div id="retour">
+            <a href="../index.html"><- Retournez à la page d'accueil</a>
+        </div>
+        <main>
+            <section class="entete">
+                <h1 class="titre">Contact</h1>
+                <p class="description">Vous pouvez me contacter avec ce formulaire</p>
+            </section>
+            <section>
+                <form id="contact">
+                    <div class="field">
+                        <label class="labelle" for="nom">Nom</label>
+                        <input required type="text" name="nom" id="nom" placeholder="Votre nom">
+                    </div>
+                    <div class="field">
+                        <label class="labelle" for="prenom">Prénom</label>
+                        <input required type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+                    </div>
+                    <div class="field">
+                        <label class="labelle" for="email">Email</label>
+                        <input required type="email" name="email" id="email" placeholder="Votre email">
+                    </div>
+
+                    <div class="field"><label class="labelle" for="message">Message</label>
+                        <textarea required name="message" id="message" cols="30" rows="10"
+                            placeholder="Votre message"></textarea>
+                    </div>
+                    <a id="btn" href="mailto:yssfmrbt@gmail.com" type="submit">Envoyer</a>
+                </form>
+            </section>
+        </main>
+    </section>
+</body>
+
+</html>
